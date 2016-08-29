@@ -31,7 +31,7 @@ class Suggest {
 			else if (last >= 0)	{
 				last = -1;
 			}
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		if (last >= 0) // Only search for the last word entered
 			Traverse(new String(text, last, p - last), fileIdx, 0, "", suggest, task, sugPos);
 		
