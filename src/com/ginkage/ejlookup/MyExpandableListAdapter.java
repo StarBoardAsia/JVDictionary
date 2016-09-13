@@ -12,8 +12,6 @@ import android.graphics.Color;
 import android.widget.TextView;
 
 
-
-
 //test 1
 class MyExpandableListAdapter extends BaseExpandableListAdapter {
 	@Override
